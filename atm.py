@@ -1,5 +1,6 @@
 # @MUFAZ-VK  | PYTHON ATM
 
+# CLASS DEFENITION
 class BankAccount:
     def __init__(self, name, acc_no):
         self.name = name
@@ -21,7 +22,7 @@ class BankAccount:
         print(f"Balance is: {self.balance}")
 
 
-# 🌟 Main Program
+#  Main Program
 name = input("Enter the Account Holder Name: ")
 acc_no = input("Enter the Account Number: ")
 
